@@ -111,7 +111,7 @@ a {
 
 .category-box {
     height: 13dvh;
-    width: 150dvh;
+    width: 170dvh;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -119,14 +119,13 @@ a {
     gap: 4dvh;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    
     font-style: normal;
 
 }
 
 .category-box img {
-    height: 6dvh;
-    width: 6dvh;
+    height: 7dvh;
+    width: 7dvh;
 
 }
 
@@ -186,3 +185,68 @@ a {
     gap: 1dvh;
     
 }
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2dvh;
+}
+
+.best-seller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 2dvh;
+}
+
+.best-seller img {
+    height: 40dvh;
+}
+
+.fashion-seller {
+    width: 150dvh;
+    height: 40dvh;
+    background-color: white;
+    font-family:  "Lato", sans-serif;;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5dvh;
+    
+}
+
+.sellers {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.sellers .seller1 {
+    height: 268px;
+    width: 216px;
+    border-style: groove;
+    border-color: light-gray;
+    border-radius: 5px;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 2dvh;
+
+}
+
+.seller1 img {
+    height: 25dvh;
+    width: 18dvh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .seller-deal img {
+    height: 20dvh;
+    width: 16dvh
+
+} */
