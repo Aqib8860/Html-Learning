@@ -51,6 +51,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1dvh;
 }
 
 .profile img {
@@ -69,6 +70,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1dvh;
 }
 
 .cart img {
@@ -85,7 +87,7 @@ a {
 .seller {
     display: flex;
     align-items: center;
-    gap: 2dvh;
+    gap: 1dvh;
 }
 
 .seller img {
