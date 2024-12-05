@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-content: flex-end;
+    gap: 5dvh;
+    
+}
+
+.box1 {
+    border-style: solid;
+    border-color: black;
+    height: 20vh;
+    width: 40vh;
+}
+/* 
+.box2 {
+    border-style: solid;
+    border-color: black;
+    height: 20vh;
+    width: 40vh;
+}
+
+.box3 {
+    border-style: solid;
+    border-color: black;
+    height: 20vh;
+    width: 40vh;
+} */
