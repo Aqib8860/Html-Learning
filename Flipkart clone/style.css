@@ -1,5 +1,6 @@
 body {
     background-color: seashell;
+
 }
 
 a {
@@ -29,7 +30,6 @@ a {
     border-radius: 5px;
     display: flex;
     border: none;
-    
 }
 
 .search-box input {
@@ -37,6 +37,7 @@ a {
     outline: none;
     border: none;
     height: 4dvh;
+    width: 90dvh;
     font-size: 20px;
 
 }
@@ -99,4 +100,89 @@ a {
 .seller a{
     font-size: 2dvh;
     color: black;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.category-box {
+    height: 13dvh;
+    width: 150dvh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4dvh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    
+    font-style: normal;
+
+}
+
+.category-box img {
+    height: 6dvh;
+    width: 6dvh;
+
+}
+
+.grocery {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+}
+
+.fashion {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+}
+
+.electronics {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+}
+
+.furniture {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+}
+
+.appliances {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+    
+}
+
+.flight {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+}
+
+.beauty_and_toys {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+}
+
+.two_wheeler {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+    
 }
